@@ -14,5 +14,10 @@ def index():
     
     return "Working"
 
+@app.route("/contactus")
+def contactus():
+    
+    return "Welcome to contact us page"
+
 if __name__=="__main__":
     app.run(debug=True)
